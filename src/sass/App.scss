@@ -1,0 +1,196 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main_container{
+  height: 100vh;
+  background: #74ccf4;
+  position: relative;
+  //background-image: url("../images/logo.jpg");
+}
+
+.App {
+  text-align: center;
+
+
+}
+.title{
+  text-align: center;
+}
+
+.buttons{
+  margin: 0 auto;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 20px;
+
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h1{
+  padding-top: 10px;
+  color: saddlebrown;
+  font-size: 50px;
+
+}
+
+// Kitchen, Industry, ShoppingList
+.main_content{
+  height: 575px;
+
+}
+
+
+.table{
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  overflow-y: auto;
+  border: 5px solid saddlebrown;
+  border-radius: 20px;
+  text-align: center;
+  display: block;
+}
+tbody{
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.table_title{
+  text-align: left;
+  padding-left: 10px;
+  border-bottom: 2px solid saddlebrown;
+
+}
+.table_quantity{
+ // padding-left: 55px;
+  border-bottom: 2px solid saddlebrown;
+}
+.table_action{
+  text-align: right;
+  padding-right: 10px;
+  border-bottom: 2px solid saddlebrown;
+}
+th,h2{
+  color: white;
+  font-size: 25px;
+}
+
+td{
+  color: white;
+font-size: 20px;
+  border-bottom: 2px solid saddlebrown;
+}
+svg{
+  margin-left: 10px;
+}
+/// edit kitchen
+.edit_container{
+  //background-image: url("../images/logo.jpg");
+  //background-position: center;
+ background: #74ccf4;
+  border: 5px solid saddlebrown;
+  border-radius: 25px;
+  height: 50%;
+  width: 90vw;
+  position: absolute;
+  z-index: 999;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.edit_form{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.edit_title{
+}
+.edit_textarea{
+  margin: 0 auto;
+  width: 80vw;
+}
+.edit_btnArea{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+// Forecast
+.forecast_content{
+  height: 620px;
+}
+
+//Add_kitchen, industry, shppninglist
+
+.header{
+  padding-top: 10px;
+  color: saddlebrown;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.add_content{
+  height: 65%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.form_errors{
+  height: 50px;
+}
+.input{
+  width: 90vw;
+  height: 50px;
+}
+
+.select{
+  font-size: 20px;
+}
+
+.edit_form{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.form_add{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.btn_add{
+  margin-top: 150px;
+}
